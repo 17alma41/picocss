@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picocss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+          <li><strong>PERROS S.A</strong></li>
+        </ul>
+        <ul>
+          <li><a href="contador.html">Contador</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#" role="button">Button</a></li>
+        </ul>
+      </nav>
+    <section class="container">
+        <marquee behavior="alternate" direction="left"><h1>Hola mundo</h1></marquee>
+        <h2>Algo de contenido</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates ullam fuga nihil repellendus, sed, repellat, aperiam natus eum excepturi autem eos doloribus asperiores necessitatibus laboriosam porro in cupiditate reiciendis!</p>
+        <button>Click</button>
+        <div class="grid">
+            <button>Click</button>
+            <button>Click</button>
+            <button class="outline">Click</button>
+            <button disabled>Click</button>
+        </div>
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+        <article data-theme="light">
+            <h1>Hola Mundo</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eius, veritatis maiores vitae eligendi molestias doloribus ipsa perferendis veniam, in nihil sequi esse, autem reiciendis doloremque quia? Magnam, enim necessitatibus!</p>
+        </article>
+        
+        <input type="range" max="100" min="0" value="0" oninput="update()" id="range">
+        <progress min="0" max="100" value="0" id="progressbar"></progress>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
